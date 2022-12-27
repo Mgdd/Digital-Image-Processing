@@ -33,7 +33,7 @@ namespace DIP
         {
             InitializeComponent();
             g = pictureBox1.CreateGraphics();
-            //g = Graphics.FromImage(pictureBox1.Image);
+            
         }
         private void ImageDoc(IDocumentsHost host)
         {
