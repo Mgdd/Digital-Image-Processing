@@ -53,8 +53,7 @@ namespace DIP
                 pictureBox1.Image = file;
                 label1.Text = file.Width.ToString();
                 label3.Text = file.Height.ToString();
-                //label18.Text = file.HorizontalResolution.ToString();
-                //label19.Text = file.VerticalResolution.ToString();
+                
                 opened = true;
                 //button33.Enabled = true;
                 //button2.Enabled = true;
