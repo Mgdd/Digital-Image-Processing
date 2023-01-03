@@ -55,9 +55,7 @@ namespace DIP
                 label3.Text = file.Height.ToString();
                 
                 opened = true;
-                //button33.Enabled = true;
-                //button2.Enabled = true;
-                //button34.Enabled = true;
+                
 
                 imageHandler.CurrentBitmap = new Bitmap(openFileDialog1.FileName);
                 //imageHandler.BitmapPath = oDlg.FileName;
